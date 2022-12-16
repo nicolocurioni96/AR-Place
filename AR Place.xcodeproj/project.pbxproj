@@ -15,6 +15,7 @@
 		A15E331B294C619300357AF4 /* chair_swan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A15E3317294C619200357AF4 /* chair_swan.usdz */; };
 		A15E331C294C619300357AF4 /* flower_tulip.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A15E3318294C619200357AF4 /* flower_tulip.usdz */; };
 		A15E331D294C619300357AF4 /* teapot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A15E3319294C619300357AF4 /* teapot.usdz */; };
+		A15E3320294C621000357AF4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15E331F294C621000357AF4 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		A15E3317294C619200357AF4 /* chair_swan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = chair_swan.usdz; sourceTree = "<group>"; };
 		A15E3318294C619200357AF4 /* flower_tulip.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = flower_tulip.usdz; sourceTree = "<group>"; };
 		A15E3319294C619300357AF4 /* teapot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = teapot.usdz; sourceTree = "<group>"; };
+		A15E331F294C621000357AF4 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				A15E3307294C60E300357AF4 /* AR_PlaceApp.swift */,
 				A15E3315294C618600357AF4 /* Models */,
 				A15E3309294C60E300357AF4 /* ContentView.swift */,
+				A15E331E294C620400357AF4 /* Model */,
 				A15E330B294C60E500357AF4 /* Assets.xcassets */,
 				A15E330D294C60E500357AF4 /* Preview Content */,
 			);
@@ -85,6 +88,14 @@
 				A15E3316294C619200357AF4 /* tv_retro.usdz */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		A15E331E294C620400357AF4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A15E331F294C621000357AF4 /* Model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A15E3320294C621000357AF4 /* Model.swift in Sources */,
 				A15E330A294C60E300357AF4 /* ContentView.swift in Sources */,
 				A15E3308294C60E300357AF4 /* AR_PlaceApp.swift in Sources */,
 			);
