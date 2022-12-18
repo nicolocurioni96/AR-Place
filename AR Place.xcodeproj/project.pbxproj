@@ -11,11 +11,12 @@
 		A15E330A294C60E300357AF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15E3309294C60E300357AF4 /* ContentView.swift */; };
 		A15E330C294C60E500357AF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A15E330B294C60E500357AF4 /* Assets.xcassets */; };
 		A15E330F294C60E500357AF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A15E330E294C60E500357AF4 /* Preview Assets.xcassets */; };
-		A15E331A294C619300357AF4 /* tv_retro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A15E3316294C619200357AF4 /* tv_retro.usdz */; };
-		A15E331B294C619300357AF4 /* chair_swan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A15E3317294C619200357AF4 /* chair_swan.usdz */; };
-		A15E331C294C619300357AF4 /* flower_tulip.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A15E3318294C619200357AF4 /* flower_tulip.usdz */; };
-		A15E331D294C619300357AF4 /* teapot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A15E3319294C619300357AF4 /* teapot.usdz */; };
+		A15E331A294C619300357AF4 /* TV.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A15E3316294C619200357AF4 /* TV.usdz */; };
+		A15E331B294C619300357AF4 /* Chair.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A15E3317294C619200357AF4 /* Chair.usdz */; };
+		A15E331C294C619300357AF4 /* Flower.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A15E3318294C619200357AF4 /* Flower.usdz */; };
+		A15E331D294C619300357AF4 /* Teapot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A15E3319294C619300357AF4 /* Teapot.usdz */; };
 		A15E3320294C621000357AF4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15E331F294C621000357AF4 /* Model.swift */; };
+		A15E3323294DF85900357AF4 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = A15E3322294DF85900357AF4 /* FocusEntity */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,10 +25,10 @@
 		A15E3309294C60E300357AF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A15E330B294C60E500357AF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A15E330E294C60E500357AF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A15E3316294C619200357AF4 /* tv_retro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = tv_retro.usdz; sourceTree = "<group>"; };
-		A15E3317294C619200357AF4 /* chair_swan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = chair_swan.usdz; sourceTree = "<group>"; };
-		A15E3318294C619200357AF4 /* flower_tulip.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = flower_tulip.usdz; sourceTree = "<group>"; };
-		A15E3319294C619300357AF4 /* teapot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = teapot.usdz; sourceTree = "<group>"; };
+		A15E3316294C619200357AF4 /* TV.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = TV.usdz; sourceTree = "<group>"; };
+		A15E3317294C619200357AF4 /* Chair.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Chair.usdz; sourceTree = "<group>"; };
+		A15E3318294C619200357AF4 /* Flower.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Flower.usdz; sourceTree = "<group>"; };
+		A15E3319294C619300357AF4 /* Teapot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Teapot.usdz; sourceTree = "<group>"; };
 		A15E331F294C621000357AF4 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -36,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A15E3323294DF85900357AF4 /* FocusEntity in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,10 +84,10 @@
 		A15E3315294C618600357AF4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				A15E3317294C619200357AF4 /* chair_swan.usdz */,
-				A15E3318294C619200357AF4 /* flower_tulip.usdz */,
-				A15E3319294C619300357AF4 /* teapot.usdz */,
-				A15E3316294C619200357AF4 /* tv_retro.usdz */,
+				A15E3317294C619200357AF4 /* Chair.usdz */,
+				A15E3318294C619200357AF4 /* Flower.usdz */,
+				A15E3319294C619300357AF4 /* Teapot.usdz */,
+				A15E3316294C619200357AF4 /* TV.usdz */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -114,6 +116,9 @@
 			dependencies = (
 			);
 			name = "AR Place";
+			packageProductDependencies = (
+				A15E3322294DF85900357AF4 /* FocusEntity */,
+			);
 			productName = "AR Place";
 			productReference = A15E3304294C60E300357AF4 /* AR Place.app */;
 			productType = "com.apple.product-type.application";
@@ -142,6 +147,9 @@
 				Base,
 			);
 			mainGroup = A15E32FB294C60E300357AF4;
+			packageReferences = (
+				A15E3321294DF85900357AF4 /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
 			productRefGroup = A15E3305294C60E300357AF4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -156,11 +164,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A15E331D294C619300357AF4 /* teapot.usdz in Resources */,
-				A15E331A294C619300357AF4 /* tv_retro.usdz in Resources */,
+				A15E331D294C619300357AF4 /* Teapot.usdz in Resources */,
+				A15E331A294C619300357AF4 /* TV.usdz in Resources */,
 				A15E330F294C60E500357AF4 /* Preview Assets.xcassets in Resources */,
-				A15E331B294C619300357AF4 /* chair_swan.usdz in Resources */,
-				A15E331C294C619300357AF4 /* flower_tulip.usdz in Resources */,
+				A15E331B294C619300357AF4 /* Chair.usdz in Resources */,
+				A15E331C294C619300357AF4 /* Flower.usdz in Resources */,
 				A15E330C294C60E500357AF4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +314,7 @@
 				DEVELOPMENT_TEAM = 59XYW74885;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "AR Place require the camera to use the app functionalities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -335,6 +344,7 @@
 				DEVELOPMENT_TEAM = 59XYW74885;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "AR Place require the camera to use the app functionalities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -375,6 +385,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A15E3321294DF85900357AF4 /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A15E3322294DF85900357AF4 /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A15E3321294DF85900357AF4 /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A15E32FC294C60E300357AF4 /* Project object */;
 }
